@@ -1,0 +1,24 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Hello world app with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon -L index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "hello-world"
+  ],
+  "author": "Satya Jugran",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
